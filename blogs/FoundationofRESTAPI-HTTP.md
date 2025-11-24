@@ -43,18 +43,33 @@ HTTP 1 started in 1996 followed by HTTP 1.1 the very next year. In 2015, HTTP 2 
 The key features of HTTP/2 play a big role in this.
 
 * **Binary Framing Layer**
+
+<img width="258" height="210" alt="Screenshot 2025-11-24 at 3 35 03 PM" src="https://github.com/user-attachments/assets/fc8e0b98-b940-4874-9254-66bf5eee47da" />
+
   HTTP/2 encodes the messages into binary format. This allows the messages to be divided into smaller units called **frames**, which are then sent over the TCP connection, resulting in more efficient processing.
 
 * **Multiplexing**
+
+<img width="343" height="248" alt="Screenshot 2025-11-24 at 3 35 38 PM" src="https://github.com/user-attachments/assets/c5b287b7-fb79-40d3-97f6-cd8edacc7c98" />
+
   The binary framing allows full request and response multiplexing. Clients and servers can interleave frames during transmission and reassemble them on the other side.
 
 * **Stream Prioritization**
+
+<img width="270" height="235" alt="Screenshot 2025-11-24 at 3 36 05 PM" src="https://github.com/user-attachments/assets/580392af-d5ba-4913-b197-1bf57e559d20" />
+
   With stream prioritization, developers can customize the relative weight of requests or streams to make the server send more frames for higher-priority requests.
 
 * **Server Push**
+
+<img width="269" height="205" alt="Screenshot 2025-11-24 at 3 36 25 PM" src="https://github.com/user-attachments/assets/e1ac0925-6a59-4361-94f0-d109e0478cd8" />
+
   Since HTTP/2 allows multiple concurrent responses to a client’s request, a server can send additional resources along with the requested page to the client.
 
 * **HPACK Header Compression**
+
+<img width="317" height="261" alt="Screenshot 2025-11-24 at 3 36 46 PM" src="https://github.com/user-attachments/assets/26a83d8e-3f4d-4beb-bdbc-ac358c884725" />
+
   HTTP/2 uses a special compression algorithm called **HPACK** to make the headers smaller for multiple requests, thereby saving bandwidth.
 
 ---
