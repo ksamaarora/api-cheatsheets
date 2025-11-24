@@ -19,7 +19,11 @@ When a user makes a purchase on an e-commerce site, the site uses the payment pr
 3. The payment processor processes the payment and sends a response back to the e-commerce site indicating whether the payment was successful or failed.
 4. The e-commerce site then updates the user with the payment status.
 
+<img width="1200" height="600" alt="image" src="https://github.com/user-attachments/assets/cf98b2e7-04e0-47b1-9548-e8fdf151a27f" />
+
 APIs can be categorized into different types based on their usage and accessibility:
+
+<img width="746" height="419" alt="image" src="https://github.com/user-attachments/assets/9dc0e65a-4745-45e7-a936-707d569e83c8" />
 
 1. Open APIs (Public APIs): These are available to developers and other users with minimal restrictions. They are intended for external users (developers at other companies, for example).
 
