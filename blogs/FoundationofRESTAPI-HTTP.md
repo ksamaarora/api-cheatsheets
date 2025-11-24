@@ -37,3 +37,24 @@ HTTP 1 started in 1996 followed by HTTP 1.1 the very next year. In 2015, HTTP 2 
   In simple words, if you are streaming a video and downloading a file simultaneously, packet loss in the video stream won’t affect the file download stream.
 
 ---
+
+# **What makes HTTP/2 faster than HTTP/1?**
+
+The key features of HTTP/2 play a big role in this.
+
+* **Binary Framing Layer**
+  HTTP/2 encodes the messages into binary format. This allows the messages to be divided into smaller units called **frames**, which are then sent over the TCP connection, resulting in more efficient processing.
+
+* **Multiplexing**
+  The binary framing allows full request and response multiplexing. Clients and servers can interleave frames during transmission and reassemble them on the other side.
+
+* **Stream Prioritization**
+  With stream prioritization, developers can customize the relative weight of requests or streams to make the server send more frames for higher-priority requests.
+
+* **Server Push**
+  Since HTTP/2 allows multiple concurrent responses to a client’s request, a server can send additional resources along with the requested page to the client.
+
+* **HPACK Header Compression**
+  HTTP/2 uses a special compression algorithm called **HPACK** to make the headers smaller for multiple requests, thereby saving bandwidth.
+
+---
