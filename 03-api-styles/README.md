@@ -8,6 +8,8 @@
 
 APIs can be designed and implemented using various styles, each with its own principles, protocols, and use cases. Here are some of the most common API styles:
 
+<img width="636" height="480" alt="Screenshot 2025-11-24 at 4 58 27 PM" src="https://github.com/user-attachments/assets/708b0e36-922d-459a-a35c-03aedafb8e41" />
+
 1. **REST (Representational State Transfer)**:
    - REST is an architectural style that uses standard HTTP methods (GET, POST, PUT, DELETE) for communication.
    - It is stateless, meaning each request from a client to a server must contain all the information needed to understand and process the request.
