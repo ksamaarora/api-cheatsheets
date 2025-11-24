@@ -16,6 +16,8 @@ HTML is a plain text file. It’s packed with many tags that define links to ima
 
 HTTP 1 started in 1996 followed by HTTP 1.1 the very next year. In 2015, HTTP 2 came about and in 2019 we got HTTP 3.
 
+<img width="1272" height="1035" alt="image" src="https://github.com/user-attachments/assets/a5d40365-dfe5-4f61-bae3-1efdabb06114" />
+
 * **HTTP/1.0**, finalized and formally documented in 1996, had a key limitation: **each request required a separate TCP connection**.
   In simple words, if a webpage had 10 images, the browser had to open 10 separate connections to fetch those images, leading to delays.
 
